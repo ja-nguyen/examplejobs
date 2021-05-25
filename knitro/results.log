@@ -1,0 +1,56 @@
+
+=======================================
+           Academic License
+       (NOT FOR COMMERCIAL USE)
+         Artelys Knitro 10.3.0
+=======================================
+
+Knitro presolve eliminated 0 variables and 0 constraints.
+
+outlev:                  1
+par_concurrent_evals:    0
+Knitro changing algorithm from AUTO to 1.
+Knitro changing bar_initpt from AUTO to 3.
+Knitro changing bar_murule from AUTO to 4.
+Knitro changing bar_penaltycons from AUTO to 1.
+Knitro changing bar_penaltyrule from AUTO to 2.
+Knitro changing bar_switchrule from AUTO to 2.
+Knitro changing linesearch from AUTO to 1.
+Knitro changing linsolver from AUTO to 2.
+
+Problem Characteristics                    ( Presolved)
+-----------------------
+Objective goal:  Minimize
+Number of variables:                           4 (         4)
+    bounded below only:                        0 (         0)
+    bounded above only:                        0 (         0)
+    bounded below and above:                   4 (         4)
+    fixed:                                     0 (         0)
+    free:                                      0 (         0)
+Number of constraints:                         2 (         2)
+    linear equalities:                         0 (         0)
+    nonlinear equalities:                      1 (         1)
+    linear one-sided inequalities:             0 (         0)
+    nonlinear one-sided inequalities:          1 (         1)
+    linear two-sided inequalities:             0 (         0)
+    nonlinear two-sided inequalities:          0 (         0)
+Number of nonzeros in Jacobian:                8 (         8)
+Number of nonzeros in Hessian:                10 (        10)
+
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =   1.70140172890246e+01
+Final feasibility error (abs / rel) =   3.31e-10 / 3.13e-11
+Final optimality error  (abs / rel) =   7.12e-06 / 4.88e-07
+# of iterations                     =         31 
+# of CG iterations                  =          2 
+# of function evaluations           =         33
+# of gradient evaluations           =         33
+# of Hessian evaluations            =         31
+Total program time (secs)           =       0.00612 (     0.006 CPU time)
+Time spent in evaluations (secs)    =       0.00383
+
+===============================================================================
+
